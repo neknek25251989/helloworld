@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Html tables example</title>
-<style>
-table {font-family: arial, sans-serif; border-spacing: 15px; width: 100%}
-td, th {border: 1px solid #dddddd; text-align: left; padding: 15px}
-tr:nth-child(even){background-color: #dddddd}
-table#t01{width: 50%; background-color: #f1f1c1}
-table#t01 tr:nth-child(even) {background-color: #eee;}
-table#t01 tr:nth-child(odd) {background-color: #fff;}
-</style>
+		<title>Html tables example</title>
+		<style>
+				table {
+						font-family: arial, sans-serif;
+						border-spacing: 15px;
+						width: 100%
+				}
+				
+				td,
+				th {
+						border: 1px solid #dddddd;
+						text-align: left;
+						padding: 15px
+				}
+				
+				tr:nth-child(even) {
+						background-color: #dddddd
+				}
+				
+				table#t01 {
+						width: 50%;
+						background-color: #f1f1c1
+				}
+				
+				table#t01 tr:nth-child(even) {
+						background-color: #eee;
+				}
+				
+				table#t01 tr:nth-child(odd) {
+						background-color: #fff;
+				}
+		</style>
 </head>
 <body>
-<table style="width: 100%">
-<tr>
-<th>Company</th>
-<th>Contact</th>
-<th colspan="2">Country</th>
-</tr>
-<tr>
-<td>Alfreds Futterkiste</td>
-<td>Maria Anders</td>
-<td>Germany</td>
-<td>Taiwan</td>
-</tr>
-<tr>
-<td>Centro comercial Moctezuma</td>
-<td>Franciso Chang</td>
-<td>Mexico</td>
-<td>America</td>
-</tr>
-<tr>
-<td>Island Trading</td>
-<td>Helen Bennett</td>
-<td>UK</td>
-<td>Japan</td>
-</tr>
-<tr>
-<td>Laughing Bacchus Winecellars</td>
-<td>Yoshi Tannamuri</td>
-<td>Canada</td>
-<td>Egypt</td>
-</tr>
-<tr>
-<td>Magazzini Alimentari Riuniti</td>
-<td>Giovanni Rovelli</td>
-<td>Italy</td>
-<td>China</td>
-</tr>
-</table>
-<table id="t01">
-<caption>Wake Bill Gates up</caption>
-<tr>
-<th>Name:</th>
-<td>Bill Gates</td>
-</tr>
-<tr>
-<th rowspan="2">Telephone:</th>
-<td>55577854</td>
-</tr>
-<tr>
-<td>55577855</td>
-</tr>
-</table>
+		<table style="width: 100%">
+				<tr>
+						<th>Company</th>
+						<th>Contact</th>
+						<th colspan="2">Country</th>
+				</tr>
+				<tr>
+						<td>Alfreds Futterkiste</td>
+						<td>Maria Anders</td>
+						<td>Germany</td>
+						<td>Taiwan</td>
+				</tr>
+				<tr>
+						<td>Centro comercial Moctezuma</td>
+						<td>Franciso Chang</td>
+						<td>Mexico</td>
+						<td>America</td>
+				</tr>
+				<tr>
+						<td>Island Trading</td>
+						<td>Helen Bennett</td>
+						<td>UK</td>
+						<td>Japan</td>
+				</tr>
+				<tr>
+						<td>Laughing Bacchus Winecellars</td>
+						<td>Yoshi Tannamuri</td>
+						<td>Canada</td>
+						<td>Egypt</td>
+				</tr>
+				<tr>
+						<td>Magazzini Alimentari Riuniti</td>
+						<td>Giovanni Rovelli</td>
+						<td>Italy</td>
+						<td>China</td>
+				</tr>
+		</table>
+		<table id="t01">
+				<caption>Wake Bill Gates up</caption>
+				<tr>
+						<th>Name:</th>
+						<td>Bill Gates</td>
+				</tr>
+				<tr>
+						<th rowspan="2">Telephone:</th>
+						<td>55577854</td>
+				</tr>
+				<tr>
+						<td>55577855</td>
+				</tr>
+		</table>
 </body>
 </html>
