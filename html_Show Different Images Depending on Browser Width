@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Html Show Different Images Depending on Browser Width</title>
+  </head>
+  <body>
+    <picture>
+      <source srcset="https://i.imgur.com/5nFQeUU.jpg" media="(max-width:600px)">
+      <source srcset="https://i.imgur.com/3YeGLd4.jpg" media="(max-width:1500px)">
+      <source srcset="https://i.imgur.com/1aW6bcD.jpg">
+      <img src="https://i.imgur.com/3YeGLd4.jpg" alt="Dogsleeps">
+    </picture>
+  </body>
+</html>
