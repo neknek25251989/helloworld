@@ -11,5 +11,8 @@
       <source srcset="https://i.imgur.com/1aW6bcD.jpg">
       <img src="https://i.imgur.com/3YeGLd4.jpg" alt="Dogsleeps">
     </picture>
+  <h1 style="font-size: 10vw;">Hello world</h1>
+  <p style="font-size: 5vw;">Resize the browser window to see how the text size scales.</p>
+  <p style="font-size: 5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
   </body>
 </html>
