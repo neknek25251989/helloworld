@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html form example</title>
+  </head>
+  <body>
+    <form action="/action_page.php" target="_blank" method="get">
+      <fieldset>
+        <legend>Personal information:</legend>
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+      </fieldset>
+    </form>
+    <br>
+    <form action="/action_page.php" target="_top" method="post">
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other<br>
+      <input type="submit" name="submit">
+    </form>
+  </body>
+</html>
