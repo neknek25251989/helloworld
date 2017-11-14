@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html form elements example</title>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      Enter your name:
+      <input type="text" name="firstname">
+      <br><br>
+      <select name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi" selected>Audi</option>
+      </select>
+      <br><br>
+      <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+      <br><br>
+      <textarea name="message" style="width: 200px; height: 300px;">The cat was playing in the garden.</textarea>
+      <br><br>
+      <input type="submit">
+    </form>
+    <br>
+    <form action="/action_page.php">
+      <input list="browser" name="browser">
+      <datalist id="browser">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+      <br><br>
+      <input type="submit">
+    </form>
+    <form action="/action_page.php" oninput="x.value=pareseInt(a.value)+pareseInt(b.value">
+    0
+    <input type="range" id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    </form>
+    <button type="button" onclick="alert('Hello World!')">Don't click me!</button>
+  </body>
+</html>
