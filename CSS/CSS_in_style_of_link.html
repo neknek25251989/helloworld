@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="Big5">
+    <title>適用於連結部分</title>
+    <style type="text/css">
+      <!--
+        /*普通連結色的設定*/
+        a:link {
+          color: #0000ff;
+          background-color: #ffffff;
+        } 
+        a:visited {
+          color: #000080;
+          background-color: #ffffff;
+        }
+        a:hover {
+          color: #ff3300;
+          background-color: #ffffff;
+        }
+        a:active {
+          color: #ff0000;
+          background-color: #ffffff;
+        }
+        /*特定類別中含有的連結部分改變顏色*/
+        a.special {
+          font-size: bold;
+        }
+        a.special:link {
+          color: #00cc00;
+          background-color: #ffffff;
+        }
+        a.special:visited {
+          color: #009900;
+          background-color: #ffffff;
+        }
+        a.special:active {
+          color: #00ff00;
+          background-color: #ffffff
+        }
+        -->
+      .navbar {
+      text-align: center;
+      border-top: solid 1px #999999;
+      padding-top: 1em
+      }
+    </style>
+  </head>
+  <body>
+    <h1>套用連結的樣式</h1>
+    <p>利用<a href="css.html">樣式表</a>的話，可以讓只有一步的<a href="link.html">連結</a>改變顏色等樣式。:link、:visited等成為<a href="pseudo.html" class="special">虛擬類別</a>。</p>
+    <p class="navbar">
+      [<a href="next.html">下一頁</a>]
+      [<a href="top.html">最頂端</a>]
+      [<a href="prev.html">前一頁</a>]
+    </p>
+  </body>
+</html>
