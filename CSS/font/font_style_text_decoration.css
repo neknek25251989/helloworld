@@ -1,0 +1,26 @@
+p {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif
+}
+#itlc {
+  font-style: italic;
+}
+#oblq {
+  font-style: oblique;
+}
+#udln {
+  text-decoration: underline;
+}
+#lnth {
+  text-decoration: line-through;
+}
+#ovln {
+  text-decoration: overline;
+}
+#udov {
+  text-decoration: underline overline;
+}
+.keywd {
+  color: #ff3300;
+  background-color: #fff
+}

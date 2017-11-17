@@ -1,0 +1,30 @@
+ul {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+#bold {
+  font-weight: bold;
+}
+#w400 {
+  font-weight: 400;
+}
+#w500 {
+  font-weight: 500;
+}
+#w600 {
+  font-weight: 600;
+}
+#w700 {
+  font-weight: 700;
+}
+#w800 {
+  font-weight: 800;
+}
+#w900 {
+  font-weight: 900;
+}
+em {
+  color: #ff3300;
+  background-color: #fff;
+  font-style:normal;
+}

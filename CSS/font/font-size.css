@@ -1,0 +1,50 @@
+.xxs {
+  font-size: xx-small;
+}
+.xs {
+  font-size: x-small;
+}
+.s {
+  font-size: small;
+}
+.m {
+  font-size: medium;
+}
+.l {
+  font-size: large;
+}
+.xl {
+  font-size: x-large;
+}
+.xxl {
+  font-size: xx-large;
+}
+.smaller {
+  font-size: smaller;
+}
+.larger {
+  font-size: larger;
+}
+.s09 {
+  font-size: 9pt
+}
+.s12 {
+  font-size: 12pt
+}
+.s16 {
+  font-size: 16pt
+}
+.p080 {
+  font-size: 80%
+}
+.p120 {
+  font-size: 120%
+}
+.p150 {
+  font-size: 150%
+}
+em {
+  color: #ff3300;
+  background-color: #fff;
+  font-style: normal;
+}

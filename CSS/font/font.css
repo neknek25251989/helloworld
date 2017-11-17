@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  background-color: #009900;
+}
+h1, h2{
+  text-align: center;
+  margin: 0
+}
+h1 {
+  font: italic bold 6em "Times New Roman",Times,serif;
+}
+h2 {
+  font: 1.5em Arial,sans-serif;
+}
+p {
+  font: 12pt/200% "標楷體",標楷體,serif;
+  margin: 1em 2em;
+  padding: 1em;
+  color: #fff;
+  background-color: #000;
+}
