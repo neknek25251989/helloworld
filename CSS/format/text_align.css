@@ -1,0 +1,17 @@
+p {
+  font-size: x-large;
+}
+#sample1 {
+  text-align: left;
+}
+#sample2 {
+  text-align: center;
+}
+#sample3 {
+  text-align: right;
+}
+em {
+  font-style: normal;
+  color: #ff3300;
+  background-color: #fff;
+}

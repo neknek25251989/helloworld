@@ -1,0 +1,14 @@
+#sample1 {
+  line-height: normal;
+}
+#sample2 {
+  line-height: 1.5;
+}
+#sample3 {
+  line-height: 180%;
+}
+em{
+  color: #ff3300;
+  background-color: #fff;
+  font-style: normal;
+}
