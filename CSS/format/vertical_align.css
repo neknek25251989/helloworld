@@ -1,0 +1,20 @@
+.vtop {
+  vertical-align: top;
+}
+.vmid {
+  vertical-align: middle;
+}
+.vbtm {
+  vertical-align: bottom;
+}
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: #ff6600;
+  background-color: #fff
+}
+td {
+  width: 6em;
+  height: 6em;
+  text-align: center;
+}
