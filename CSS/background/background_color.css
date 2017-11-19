@@ -1,0 +1,32 @@
+body {
+  margin: 2em;
+  color: #fff;
+  background-color: #ff3300;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+p {
+  padding: 1em;
+  color: #000;
+  background-color: #ffcc00;
+}
+div {
+  padding: 1em;
+  color: #fff;
+  background-color: #fff;
+}
+table, input {
+  color: #fff;
+  background-color: #ff3300;
+}
+caption, select {
+  color: #fff;
+  background-color: #333399;
+}
+textarea {
+  color: #fff;
+  background-color: #339933;
+}
