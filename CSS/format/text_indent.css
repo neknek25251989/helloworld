@@ -1,0 +1,15 @@
+.txi10 {
+  text-indent: 1em;
+}
+.txi30 {
+  text-indent: 3em;
+}
+.txi50 {
+  text-indent: 5em;
+}
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: #ff6600;
+  background-color: #fff
+}

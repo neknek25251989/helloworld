@@ -1,0 +1,21 @@
+.ls05{
+  letter-spacing: 0.5em;
+}
+.ls10{
+  letter-spacing: 1.0em;
+}
+.ls20{
+  letter-spacing: 2.0em;
+}
+.ws08{
+  word-spacing: 0.8em;
+}
+.ws15{
+  word-spacing: 1.5em;
+}
+em{
+  font-style: normal;
+  font-weight: bold;
+  color: #ff6600;
+  background-color: #fff;
+}

@@ -1,0 +1,9 @@
+#ttlow {
+  text-transform: lowercase;
+}
+#ttup {
+  text-transform: uppercase;
+}
+#ttcap {
+  text-transform: capitalize;
+}
