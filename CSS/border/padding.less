@@ -1,0 +1,18 @@
+.text_padding (@padding: 0px) {
+  padding: @padding;
+}
+p {
+  font-weight: bold;
+  border: solid 3px #000;
+  color: #fff;
+  background-color: #ff3300;
+}
+#sample1 {
+  .text_padding;
+}
+#sample2 {
+  .text_padding (20px)
+}
+#sample3 {
+  .text_padding (40px)
+}

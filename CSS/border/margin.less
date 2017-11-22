@@ -1,0 +1,27 @@
+.text-margin (@margin: 0px) {
+  margin: @margin;
+}
+
+body {
+  .text-margin;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  border: solid 3px #000;
+  color: #fff;
+  background-color: #ff3300;
+}
+#sample1 {
+  .text-margin;
+}
+#sample2 {
+  .text-margin (20px);
+}
+#sample3 {
+  .text-margin (40px);
+}
+#sample4 {
+  .text-margin (50%);
+}
