@@ -1,0 +1,36 @@
+body {
+  margin: 2em;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  padding: 5em;
+  border: solid 8px #ff3300;
+}
+#sample1 {
+  border-style: none;
+}
+#sample2 {
+  border-style: solid;
+}
+#sample3 {
+  border-style: double;
+}
+#sample4 {
+  border-style: dashed;
+}
+#sample5 {
+  border-style: dotted;
+}
+#sample6 {
+  border-style: groove;
+}
+#sample7 {
+  border-style: ridge;
+}
+#sample8 {
+  border-style: inset;
+}
+#sample9 {
+  border-style: outset;
+}
