@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>What can JavaScript do?</title>
+    </head>
+    <body>
+      <h2 id="demo1">What can JavaScript do?</h2>
+      <p>JavaScript Can Change HTML Content</p>
+      <button type="button" onclick="document.getElementById('demo1').innerHTML='Hello JavaScript!'">Click me!</button>
+      <p>JavaScript can change HTML attributes.</p>
+      <p>In this case JavaScript changes the src (source) attribute of an image.</p>
+      <button onclick="document.getElementById('myImage').src='https://dummyimage.com/100x100/f50505/000.png'">turn to red!</button>
+      <img id="myImage" src="https://dummyimage.com/100x100/14f70d/000.png">
+      <button onclick="document.getElementById('myImage').src='https://dummyimage.com/100x100/14f70d/000.png'">turn to green!</button>
+      <p id="demo2">JavaScript can change the style of HTML element.</p>
+      <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Turn letters bigger!</button>
+      <p id="demo3">JavaScript can hide and show HTML elements.</p>
+      <button type="button" onclick="document.getElementById('demo3').style.display='none'">Hide the sentence!</button>
+      <button type="button" onclick="document.getElementById('demo3').style.display='block'">Show the sentence!</button>
+    </body>
+  </html>
