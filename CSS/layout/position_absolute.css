@@ -1,0 +1,16 @@
+body {
+  color: #000;
+  background-color: #fff;
+}
+p {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 150px;
+  height: 50px;
+  margin: 0;
+  padding: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff3300;
+}
