@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>CSS display:none and visbility:hidden</title>
+      <style type="text/css" rel="stylesheet" href="display_none_visbility_hidden.css"></style>
+    </head>
+    <body>
+      <p>此段下方有一個不顯示的段落因為指定了display: none，此元素會變成如同消失般的狀態。</p>
+      <p class="none">此段落變成不顯示狀態。</p>
+      <table border="3" cellpadding="4">
+        <tr class="hidden">
+          <th>標題</th>
+          <th>標題</th>
+          <th>標題</th>
+        </tr>
+        <tr>
+          <td>內容</td>
+          <td>內容</td>
+          <td>內容</td>
+        </tr>
+        <tr class="hidden">
+          <th>內容</th>
+          <th>內容</th>
+          <th>內容</th>
+        </tr>
+      </table>
+      <p class="hidden">此段落變成不顯示狀態。</p>
+      <p>此段上方有一個不顯示的段落因為指定了visibility: hidden，所以能保有它原來的領域。</p>
+    </body>
+  </html>
