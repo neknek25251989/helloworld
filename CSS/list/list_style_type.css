@@ -1,0 +1,12 @@
+.type1 {
+  list-style-type: none;
+}
+.type2 {
+  list-style-type: disc;
+}
+.type3 {
+  list-style-type: circle;
+}
+.type4 {
+  list-style-type: square;
+}
