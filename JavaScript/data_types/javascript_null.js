@@ -12,6 +12,6 @@ document.getElementById('demo2').innerHTML =
 typeof undefined + '<br>' +
 typeof null + '<br><br>' + 
 typeof [1,2,3,4] + '<br>' + 
-typeof function myFunc(){} + 
+typeof function myFunc(){} + '<br>' + 
 (null === undefined) + '<br>' +
 (null == undefined);
